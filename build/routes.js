@@ -1063,8 +1063,7 @@ export default {
       "/:type/:keyword{.*}?": {
         "path": "/:type/:keyword{.*}?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "name": "通用",
         "maintainers": [
@@ -33298,7 +33297,8 @@ export default {
       "/:endpoint": {
         "path": "/:endpoint",
         "categories": [
-          "traditional-media"
+          "traditional-media",
+          "popular"
         ],
         "view": 0,
         "example": "/economist/latest",
